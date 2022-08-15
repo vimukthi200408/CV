@@ -1,0 +1,73 @@
+
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left ul{
+    list-style: none;
+}
+
+.personal{
+    padding: 1rem;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns:33% 1fr;
+    grid-gap: 2rem;
+}
+
+.left{
+    background-color: lightgray;
+}
+
+.left-image{
+    position:relative;
+
+}
+
+.left-image img{
+    width: 100%;
+    padding: 1rem;
+    
+    
+   
+}
+
+
+.lastname h1{
+    color: orange;
+    size: 4rem;
+}
+
+/* .lastname,
+.firstname{
+    
+} */
+
+
+
+.experience ul{
+    margin-left: 4rem;
+  
+}
+
+.skills table{
+    text-align: left;
+    padding: 4px;
+}
+
+table td{
+    text-align: left;
+    padding: 4px;
+}
+
+
+.right{
+    border-left-width: 34;
+    line-height: 2;
+}
